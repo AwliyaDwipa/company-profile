@@ -1,0 +1,28 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.company-name img{
+    width: 300px;
+}
+.option{
+    margin: 30px;
+}
+.option a{
+    margin: 0 20px;
+    font-weight: 700;
+    color: #476aaa;
+}
+.option> .button{
+    border: 1px solid black;
+    padding: 10px 34px;
+    border-radius: 10px;
+    transition: .6s;
+}
+.option> .button:hover{
+    background-color: #476aaa;
+    color: white;
+}

@@ -1,0 +1,68 @@
+/* body{
+    overflow: hidden;
+}
+.loginpage img{
+    width: 50%;
+    min-height: 100vh;
+    object-fit: cover;
+} */
+.loginpage{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    background-image: url(michelin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50%;
+    height: 100vh;
+}
+.loginsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    min-height: 100vh;
+    transform: translateY(-60px);
+}
+.loginsec img{
+    width: 300px;
+    transform: translatey(0px);
+}
+.loginsec header{
+    font-size: calc(20px * 1.618);
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+.loginsec input{
+    width: 50%;
+    height: 40px;
+    margin: 15px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    outline: none;
+}
+.loginsec button{
+    width: 100px;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+}
+.loginsec .btn{
+    color: black;
+}
+.loginpage span{
+    position: absolute;
+    bottom: 80px;
+    right: 320px;  
+    font-size: calc(20px * 1.618);  
+}
+span .register{
+    color: black;
+    color: #5979B3;
+}

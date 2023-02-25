@@ -1,0 +1,28 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.member{
+    width: 400px;
+    display: flex;
+    flex-direction: row  ;
+    margin: 5px
+}
+.human{
+    width: 212px;
+    height: 212px;
+}
+.human > img{
+    max-width: 100%;
+}
+.member>.deskripsi{
+    margin: 0 20px;
+}

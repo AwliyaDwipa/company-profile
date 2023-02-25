@@ -1,0 +1,21 @@
+.history{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.history h1{
+    color: #476aaa;
+    transform: skewX(-15deg);
+    position: relative;
+    left: 200px;
+}
+.sejarah{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sejarah p{
+    width: 300px;
+    text-align: justify;
+}

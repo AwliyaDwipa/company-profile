@@ -1,0 +1,31 @@
+
+.partnerships{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+.partnerships h1{
+    color: #476aaa;
+    font-style: italic;
+    border-bottom: 2px solid #476aaa;
+    width: fit-content;
+}
+.sponsor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sponsor img{
+   max-width: 100px;
+   height: 100px;
+    padding: 40px;
+}
+.arrow-2{
+    transform: translateX(-180px) translateY(70px);
+    font-size: 30px;
+}
+.arrow{
+    font-size: 30px;
+    transform: translateY(-100px) translateX(50px);
+}

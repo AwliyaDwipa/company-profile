@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desc{
+   display: flex;
+   flex-direction: column;
+}
+.desc a{
+    font-size: calc(20px * 1.618);
+    margin-bottom: 20px;
+}
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px;
+}
+.linkedin, .fb, .yt, .twt{
+    font-size: calc(20px * 1.618);
+    margin: 15px 0;
+}
+.linkedin{
+    color: rgb(36, 88, 147);
+}
+.fb{
+    color: blue;
+}
+.yt{
+    color: red;
+}
+.twt{
+    color: rgb(50, 136, 182);
+}
+.copyr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: #476aaa;
+}

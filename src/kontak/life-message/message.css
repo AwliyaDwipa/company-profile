@@ -1,0 +1,39 @@
+.message{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.message h1{
+    margin: 10px 0;
+    transform: skewX(-15deg);
+    color: #476aaa;
+}
+.message p{
+    font-weight: 600;
+    margin: 10px 0;
+}
+.message input{
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+.message textarea{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.message button{
+    width: fit-content;
+    padding: 10px 34px;
+    margin: 20px 0;
+    position: absolute;
+    background-color: #476aaa;
+    color: white;
+    right: 0;
+    bottom: -70px;
+    border: 1px solid #476aaa;
+    cursor: pointer;
+}

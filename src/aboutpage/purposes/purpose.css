@@ -1,0 +1,32 @@
+.purpose{
+    display: flex;
+    flex-direction: column;
+}
+.visi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tujuan{
+    width: 500px;
+    transform: translateY(-20px);
+    text-align: justify;
+}
+.tujuan h1{
+    transform: skewX(-15deg);
+    color: #476aaa;
+}
+.komitmen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mision{
+    width: 400px;
+    text-align: justify;
+}
+.mision h1{
+    color: #476aaa;
+    transform: skewX(-15deg);
+}

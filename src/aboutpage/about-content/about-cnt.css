@@ -1,0 +1,18 @@
+.content-abt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first-content{
+    width: 400px;
+    text-align: justify;
+}
+.first-content h1{
+    font-size: (20px * 1.618);
+    color: #476aaa;
+    transform: skewX(-15deg);
+    margin: 10px 0;
+}
+.first-content p{
+    font-weight: 600;
+}
